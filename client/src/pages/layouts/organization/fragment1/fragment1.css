@@ -1,0 +1,49 @@
+.orga-frament1{
+    width: 100%;
+}
+.orga-frament1 .t-3{
+    text-align: center;
+    margin-bottom: var(--size-3);
+}
+.orga-frament1 .t-1{
+    font-size: var(--size-2);
+    color: var(--color-1);
+}
+.orga-frament1 .container{
+    padding: var(--size-1) 0;
+    align-items: start !important;
+}
+.orga-frament1 .container .left{
+    width: 58%;
+    text-align: left;
+    background-color: var(--white-color);
+    padding: var(--size-1);
+}
+.orga-frament1 .container .right{
+    width: 40%;
+    background-color: var(--white-color);
+    padding: var(--size-1);
+}
+.orga-frament1 .container .right .t-2{
+    font-size: var(--size-105);
+}
+.orga-frament1 .container .right form{
+    display: block;
+}
+.orga-frament1 .container .right .form-item{
+    width: 100%;
+    margin-bottom: var(--size-1);
+}
+.orga-frament1 .container .right .form-item .t-2{
+    font-size: unset;
+}
+.orga-frament1 .container .right .form-item select{
+    width: 100%;
+    border-radius: var(--size-02);
+    padding: var(--size-05);
+    margin-top: var(--size-07);
+}
+.orga-frament1 .container .right .t-3{
+    text-align: left;
+    margin-bottom: var(--size-1);
+}

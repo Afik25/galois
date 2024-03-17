@@ -1,0 +1,43 @@
+.organization{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--grey-color-3);
+}
+.organization .head{
+    width: 100%;
+    height: 100px;
+    background-color: var(--white-color);
+}
+.organization .head .container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: var(--size-1) 0;
+}
+.organization .head .container .logo{
+    width: 130px;
+    height: 100%;
+}
+.organization .head .container .navigation{
+    display: flex;
+}
+.organization .head .container .navigation .button{
+    margin-left: var(--size-1);
+    background-color: transparent;
+    color: var(--color-4);
+    transition: all .3s ease-in-out;
+}
+.organization .head .container .navigation .button:hover{
+    color: var(--color-1);
+}
+.organization .head .container .navigation .button.active{
+    color: var(--color-1);
+    font-weight: bold;
+}
+.organization .body{
+    width: 90%;
+    height: calc(100% - 100px);
+    overflow-y: auto;
+    margin: auto;
+    padding: var(--size-1) 0;
+}
